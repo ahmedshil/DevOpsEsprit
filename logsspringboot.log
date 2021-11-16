@@ -1,0 +1,25 @@
+2021-11-15 11:21:30.231  INFO 9900 --- [main] tn.esprit.spring.tests.DepTest           : Starting DepTest on DESKTOP-9417N62 with PID 9900 (started by MERIEM in C:\Users\MERIEM\Desktop\Devops\DevOpsEsprit)
+2021-11-15 11:21:30.249  INFO 9900 --- [main] tn.esprit.spring.tests.DepTest           : No active profile set, falling back to default profiles: default
+2021-11-15 11:21:31.413  INFO 9900 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2021-11-15 11:21:31.577  INFO 9900 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 145ms. Found 6 repository interfaces.
+2021-11-15 11:21:32.406  INFO 9900 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$de204afd] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-11-15 11:21:32.772  INFO 9900 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-11-15 11:21:33.058  INFO 9900 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-11-15 11:21:33.408  INFO 9900 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2021-11-15 11:21:33.698  INFO 9900 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.3.9.Final}
+2021-11-15 11:21:33.704  INFO 9900 --- [main] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2021-11-15 11:21:33.977  INFO 9900 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2021-11-15 11:21:34.346  INFO 9900 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2021-11-15 11:21:34.801  WARN 9900 --- [main] org.hibernate.mapping.RootClass          : HHH000038: Composite-id class does not override equals(): tn.esprit.spring.entities.TimesheetPK
+2021-11-15 11:21:34.801  WARN 9900 --- [main] org.hibernate.mapping.RootClass          : HHH000039: Composite-id class does not override hashCode(): tn.esprit.spring.entities.TimesheetPK
+2021-11-15 11:21:36.060  INFO 9900 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-11-15 11:21:36.599  INFO 9900 --- [main] o.h.h.i.QueryTranslatorFactoryInitiator  : HHH000397: Using ASTQueryTranslatorFactory
+2021-11-15 11:21:38.014  INFO 9900 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-11-15 11:21:38.099  WARN 9900 --- [main] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-11-15 11:21:38.675  INFO 9900 --- [main] tn.esprit.spring.tests.DepTest           : Started DepTest in 9.149 seconds (JVM running for 11.435)
+2021-11-15 11:21:39.183  INFO 9900 --- [Thread-1] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2021-11-15 11:21:39.185  INFO 9900 --- [Thread-1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-11-15 11:21:39.189  INFO 9900 --- [Thread-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2021-11-15 11:21:39.195  INFO 9900 --- [Thread-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
